@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 import Link from 'next/link'
 import Image from 'next/image';
 import Logoimages from '../public/sk_logo.png';

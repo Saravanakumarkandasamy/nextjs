@@ -9,7 +9,7 @@ const NotFound = () => {
         setTimeout(() => {
             backtohome.push("/");
         },3000)
-    },[])
+    },[backtohome])
     return (  
         <div className="not-found">
             <h1>OOOOPS..</h1>
