@@ -21,16 +21,16 @@ const test = ({value}) => {
       </head> 
          <div>
              <h2>User Name</h2> 
-        {value.map(val =>(
-            <Link href={"/test/" + val.id} key={val.id} >
-               <a> <h4 className={styles.user_details}>{val.name}</h4> </a> 
-            </Link>
-             
-        ))}
+                {value.map(val =>(
+                    <Link href={"/test/" + val.id} key={val.id} >
+                    <a> <h4 className={styles.user_details}>{val.name}</h4> </a> 
+                    </Link>
+                    
+                ))}
            
          </div>
 
-         <h4 className={design.user_details}>Name</h4> 
+         <h4 className={design.user_details}>Same class name but different files </h4> 
          </>
      );
  }
