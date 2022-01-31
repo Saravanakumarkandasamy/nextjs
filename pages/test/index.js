@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../../styles/user.module.css'; 
-import design from '../../styles/jobs.module.css';
+import design from '../../styles/Jobs.module.css';
 
 export const getStaticProps = async () => {
 
@@ -9,7 +9,7 @@ export const getStaticProps = async () => {
     return{
         props: {value:data}
     }
-}
+}   
 
 const test = ({value}) => {
      return (  
